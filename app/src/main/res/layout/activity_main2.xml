@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chx.myonelineview.Main2Activity">
+
+
+    <com.chx.myonelineview.MyOneLineView
+        android:id="@+id/one_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.chx.myonelineview.MyOneLineView>
+
+    <com.chx.myonelineview.MyOneLineView
+        android:id="@+id/two_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.chx.myonelineview.MyOneLineView>
+
+    <com.chx.myonelineview.MyOneLineView
+        android:id="@+id/there_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.chx.myonelineview.MyOneLineView>
+</LinearLayout>
